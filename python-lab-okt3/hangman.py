@@ -16,10 +16,10 @@ class Hangman:
         #vi kan sätta antalet felaktiga försök varje spel
         self.count: int=count
 
-    def add_word(self, word):
-        return self.words.append(word)
+    def add_word(self, word) -> None:
+        self.words.append(word)
 
-    def select_random_word(self):
+    def select_random_word(self) -> Word:
        return random.choice(self.words)
 
     @staticmethod
