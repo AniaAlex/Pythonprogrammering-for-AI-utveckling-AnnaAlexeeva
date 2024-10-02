@@ -47,7 +47,7 @@ class Hangman:
             return False, word
 
     def is_letter(self, letter):
-        if len(letter)>1:
+        if len(letter)!=1:
             letter=input("Felaktigt format, prova igen")
             self.is_letter(letter)
         return letter
