@@ -41,7 +41,7 @@ class Hangman:
     @staticmethod
     def letter_in_word(word, letter):
         if letter in word.word_to_guess:
-            word.letters_to_guess-=1
+            word.letters_to_guess-=word.word_to_guess.count(letter)
             return True, word
         else:
             return False, word
