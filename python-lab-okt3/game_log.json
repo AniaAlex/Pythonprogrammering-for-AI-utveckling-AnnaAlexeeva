@@ -13,5 +13,70 @@
         "start_time": "2024-10-02T12:47:23.306682+00:00",
         "duration": "0:00:03.198620",
         "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:37:54.951354+00:00",
+        "duration": "0:00:07.557835",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:39:09.583970+00:00",
+        "duration": "0:00:25.073937",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:39:37.760090+00:00",
+        "duration": "0:00:11.147385",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:43:15.088429+00:00",
+        "duration": "0:00:09.186398",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:43:28.204228+00:00",
+        "duration": "0:00:03.318945",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:43:34.872626+00:00",
+        "duration": "0:00:02.913275",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:43:39.968307+00:00",
+        "duration": "0:00:03.223047",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:43:45.896276+00:00",
+        "duration": "0:00:02.819408",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:48:35.228462+00:00",
+        "duration": "0:00:24.025189",
+        "word_of_the_round": "apple"
+    },
+    {
+        "start_time": "2024-10-02T15:49:01.343625+00:00",
+        "duration": "0:00:02.001612",
+        "word_of_the_round": "apple"
+    },
+    {
+        "start_time": "2024-10-02T15:49:06.042970+00:00",
+        "duration": "0:00:02.510623",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-02T15:49:22.197208+00:00",
+        "duration": "0:00:02.248362",
+        "word_of_the_round": "apple"
+    },
+    {
+        "start_time": "2024-10-02T15:49:36.912916+00:00",
+        "duration": "0:00:06.039348",
+        "word_of_the_round": "cherry"
     }
 ]

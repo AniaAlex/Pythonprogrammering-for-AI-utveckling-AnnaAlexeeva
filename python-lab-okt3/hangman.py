@@ -77,7 +77,7 @@ class Hangman:
             with open(filename, 'r', encoding="utf-8") as f:
                 for line in f:
                     word=line.strip().split('.')[1].lower()
-                words_to_guess_list.append(Word(word_to_guess=word))
+                    words_to_guess_list.append(Word(word_to_guess=word))
             cls.count=3
             game_round=cls(words=words_to_guess_list)
             return game_round
