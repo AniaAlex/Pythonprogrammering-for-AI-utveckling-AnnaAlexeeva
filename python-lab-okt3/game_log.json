@@ -103,5 +103,25 @@
         "start_time": "2024-10-02T15:56:38.748091+00:00",
         "duration": "0:00:28.922424",
         "word_of_the_round": "cherry"
+    },
+    {
+        "start_time": "2024-10-03T08:20:21.469276+00:00",
+        "duration": "0:00:14.756437",
+        "word_of_the_round": "watermelon"
+    },
+    {
+        "start_time": "2024-10-03T08:48:49.785017+00:00",
+        "duration": "0:00:26.528573",
+        "word_of_the_round": "apple"
+    },
+    {
+        "start_time": "2024-10-03T08:58:26.190194+00:00",
+        "duration": "0:00:03.281598",
+        "word_of_the_round": "cherry"
+    },
+    {
+        "start_time": "2024-10-03T08:58:42.439992+00:00",
+        "duration": "0:00:07.013152",
+        "word_of_the_round": "apple"
     }
 ]

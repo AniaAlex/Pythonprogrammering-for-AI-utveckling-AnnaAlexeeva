@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 def log_method(func):
     def wrapper(*args, **kwargs):
         print(f"Anropar metod: {func.__name__}")
-        func(*args, **kwargs)
+        return func(*args, **kwargs)
     return wrapper
 
 
@@ -46,10 +46,11 @@ class Hangman:
         else:
             return False, word
 
+    @log_method
     def is_letter(self, letter):
         if len(letter)!=1:
             letter=input("Felaktigt format, prova igen")
-            self.is_letter(letter)
+            return self.is_letter(letter)
         return letter
 
     @log_method
@@ -118,17 +119,18 @@ class Hangman:
 
 def main():
     game_round=Hangman.load_the_game("words_to_guess.txt")
-    start_the_game=input("Vill du börja spellet? Ja/Nej").strip().lower()
+    start_the_game=input("Vill du börja spelet? Ja/Nej").strip().lower()
     if start_the_game == "ja":
         game_round.start_time=datetime.now(timezone.utc)
         game_round.roll_the_game()
         game_round.save_the_file("game_log.json")
-        main()
+        return main()
     elif start_the_game == "nej":
         print("ok, Bye")
         return
     else:
         print("Felaktig input!")
+        return
 
 
 if __name__=="__main__":
