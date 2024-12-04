@@ -1,0 +1,4 @@
+tensorflow>=2.18.0,< 2.18.99
+pandas >=2.2.3,< 2.2.99
+scikit-learn >=1.5.2,<1.5.99
+matplotlib>=3.9.3,<3.9.99
