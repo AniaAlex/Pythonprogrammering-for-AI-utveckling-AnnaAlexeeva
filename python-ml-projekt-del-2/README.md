@@ -23,8 +23,7 @@ Imputation och skalning:
 
 För initial dataanalys och bearbetning, vänligen hänvisa till följande dokument:
 
-https://github.com/mnob2019/Pythonprogrammering-for-AI-utveckling-AnnaAlexeeva/blob/main/python-ml-projekt-del-1/diabetes_kvinnor.ipynb
-
+https://github.com/AniaAlex/Pythonprogrammering-for-AI-utveckling-AnnaAlexeeva/blob/main/python-ml-projekt-del-1/diabetes_kvinnor.ipynb
 3) Modellen:
 
 Det är ett klassificeringsproblem och deep neural networks i Keras 
