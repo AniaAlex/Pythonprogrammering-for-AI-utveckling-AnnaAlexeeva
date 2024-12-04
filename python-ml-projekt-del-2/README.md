@@ -32,7 +32,7 @@ Sequential() med cross entropy (loss=‘binary_crossentropy’) kan används.
 Binary crossentropy används som förlustfunktion, 
 vilket är lämpligt för binära klassificeringsproblem.
 
-4) Den tränade modellen visar relativt stabila resultat.
+5) Den tränade modellen visar relativt stabila resultat.
 
 -  Den bästa "accuracy" är cirka 90%;
 - "Accuracy" och "Validation accuracy" visar resultat som ligger nära varandra;
@@ -46,7 +46,7 @@ Binär klassificeringsproblem: I det här fallet förutspår modellen ett av tv�
 
 Det är viktigt att komma ihåg att data storlek och kvalitet kan påverka resultaten.
 
-5) Punkter kring AI-lösning och etik inom medicine:
+6) Punkter kring AI-lösning och etik inom medicine:
 
 - Lösningen tränades på öpen informationskälla;
 - Lösningen skapades för studieändamål och kan inte användas för verkliga beslut;
