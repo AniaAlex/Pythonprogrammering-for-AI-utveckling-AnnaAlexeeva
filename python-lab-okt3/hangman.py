@@ -20,8 +20,8 @@ class Word:
         return f"{self.word_to_guess}, bokstäver att gissa: {self.letters_to_guess}, bokstäver att"
 
 class Hangman:
-    # Vi kan sätta antalet felaktiga försök varje spel
-    # Nu kan vi komma åt count genom "self" och "cls"
+    """Vi kan sätta antalet felaktiga försök varje spel"""
+    """Nu kan vi komma åt count genom "self" och "cls"""
     count: int = 0
 
     def __init__(self, words:list[Word]):
